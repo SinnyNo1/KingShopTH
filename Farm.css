@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+
+body {
+    transition: 0.5s;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    transition: 0.3s;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.3cm;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5cm;
+}
+
+.headertext {
+    transition: 0.3s;
+    font-size: 1.3cm;
+}
+
+.headertext:hover {
+    transition: 0.3s;
+    font-size: 1.5cm;
+    cursor: default;
+}
+
+.href {
+    transition: 0.3s;
+    color: white;
+    font-size: 0.9cm;
+}
+
+h1 {
+    transition: 0.3s;
+    color: red;
+    font-size: 2cm;
+    padding-top: 6cm;
+}

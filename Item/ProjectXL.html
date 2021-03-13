@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>King Shop</title>
+        <link rel="stylesheet" href="ProjectXL.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <i class="fas fa-crown"></i>
+            <a class="headertext">King Shop</a>
+
+            <a style="padding-left: 23cm;" class="href" href="Farm">หน้าหลัก</a>
+            <a style="padding-left: 0.5cm;" class="href" href="Farm.html">รับฟาม</a>
+            <a style="padding-left: 0.5cm;" class="href" href="Item.html">ขายไอเทม</a>
+            <a style="padding-left: 0.5cm;" class="href" href="How.html">วิธีการสั่งซื้อ</a>
+        </div><br><br><br>
+        <div class="headerbox">
+            <a>Project XL | ขายไอเทม</a>
+        </div>
+        <div class="box">
+            <select id="select" class="select" name="ไอเทม">
+                <option value="None">ไม่ได้เลือก</option>
+                <option style="color: rgb(255, 71, 71);" value="Eyeball">Eyeball</option>
+                <option style="color: rgb(255, 0, 0);" value="Brain">Brain</option>
+                <option style="color: rgb(151, 151, 151);" value="Moku Moku no mi">Moku Moku no mi</option>
+                <option style="color: rgb(255, 230, 0);" value="Pika Pika no mi">Pika Pika no mi</option>
+                <option style="color: rgb(43, 255, 0);" value="Kage Kage no mi">Kage Kage no mi</option>
+                <option style="color: rgb(255, 153, 0);" value="Mera Mera no mi">Mera Mera no mi</option>
+                <option style="color: rgb(47, 224, 255);" value="Gura Gura no mi">Gura Gura no mi</option>
+                <option style="color: rgb(0, 26, 255);" value="Goro Goro no mi">Goro Goro no mi</option>
+                <option style="color: rgb(0, 204, 255);" value="Cremation">Cremation</option>
+                <option style="color: rgb(255, 196, 0);" value="Electrification">Electrification</option>
+            </select><br>
+            <input id="amount" placeholder="จำนวนไอเทม" class="number" type="number"><br>
+            <input id="username" placeholder="ชื่อในเกม" class="text" type="text"><br>
+            <input id="money" placeholder="จำนวนเงิน" class="number" type="number"><br>
+            <input id="number" placeholder="เลขอ้างอิง" class="number" type="number"><br>
+            <input onclick="Work()" value="ยืนยัน" class="submit" type="submit"><br>
+            <a>สามารถเช็ค Stock และ Rates ได้ที่ </a><a style="color: blue;" href="https://discord.gg/9gxChF5rbB">Discord</a>
+        </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="ProjectXL.js"></script>
+    </body>
+</html>

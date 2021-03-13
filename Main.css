@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+
+body {
+    transition: 0.5s;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    transition: 0.3s;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.3cm;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5cm;
+}
+
+.headertext {
+    transition: 0.3s;
+    font-size: 1.3cm;
+}
+
+.headertext:hover {
+    transition: 0.3s;
+    font-size: 1.5cm;
+    cursor: default;
+}
+
+.href {
+    transition: 0.3s;
+    color: white;
+    font-size: 0.9cm;
+}
+
+.box {
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5cm;
+    padding-top: 3.5cm;
+}
+
+.discord {
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5cm;
+    background-color: rgb(0, 140, 255);
+    border-radius: 15px;
+    width: 15cm;
+    margin-left: 18cm;
+}
+
+.discord:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 1cm rgb(0, 140, 255);
+    cursor: pointer;
+}

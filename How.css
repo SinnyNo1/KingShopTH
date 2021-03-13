@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+
+body {
+    transition: 0.5s;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    transition: 0.3s;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.3cm;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5cm;
+}
+
+.headertext {
+    transition: 0.3s;
+    font-size: 1.3cm;
+}
+
+.headertext:hover {
+    transition: 0.3s;
+    font-size: 1.5cm;
+    cursor: default;
+}
+
+.href {
+    transition: 0.3s;
+    color: white;
+    font-size: 0.9cm;
+}
+
+h1 {
+    transition: 0.3s;
+    color: rgb(255, 230, 0);
+    font-size: 2cm;
+}
+
+.headerhow {
+    transition: 0.3s;
+    font-size: 0.8cm;
+}
+
+.Farm {
+    transition: 0.3s;
+    background-color: rgb(255, 208, 0);
+    border-radius: 15px 15px 0 0;
+    width: 30cm;
+    margin-left: 10cm;
+}
+
+.Farm2 {
+    transition: 0.3s;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 0, 0);
+    border-radius: 0 0 15px 15px;
+    width: 30cm;
+    margin-left: 10cm;
+}
+
+.intext {
+    transition: 0.3s;
+    font-size: 0.6cm;
+}
+
+.intextred {
+    transition: 0.3s;
+    font-size: 0.6cm;
+    color: red;
+}
+
+.intextblue {
+    transition: 0.3s;
+    font-size: 0.6cm;
+    color: rgb(0, 102, 255);
+}
+
+.Item {
+    transition: 0.3s;
+    background-color: rgb(255, 208, 0);
+    border-radius: 15px 15px 0 0;
+    width: 30cm;
+    margin-left: 10cm;
+}
+
+.Item2 {
+    transition: 0.3s;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 208, 0);
+    border-radius: 0 0 15px 15px;
+    width: 30cm;
+    margin-left: 10cm;
+}
